@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import comillas from  '../imagenes/pattern-quotes.png';
 import fondo from '../imagenes/pattern-bg.png';
