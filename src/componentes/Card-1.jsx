@@ -1,10 +1,7 @@
 import { useState } from 'react';
-
 import comillas from  '../imagenes/pattern-quotes.png';
 import fondo from '../imagenes/pattern-bg.png';
 import '../estilos/card.css';
-
-
 import datos from '../imagenes/objetos.json';
 import anterior from '../imagenes/icon-prev.png';
 import siguiente from '../imagenes/icon-next.png';
@@ -24,11 +21,11 @@ function Card1  (){
 
 
     const next = () => {
-        setData(datos [1])
+        setData(datos[1])
     }
 
     const prev = () => {
-        setData(datos [0])
+        setData(datos[0])
     }
     
     return(
